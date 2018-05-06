@@ -101,24 +101,24 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   {KC_TAB,  KC_QUOT, KC_COMM, KC_DOT,  KC_P,    KC_Y,    KC_F,    KC_G,    KC_C,    KC_R,    KC_L,    KC_BSPC},
   {KC_ESC,  KC_A,    KC_O,    KC_E,    KC_U,    KC_I,    KC_D,    KC_H,    KC_T,    KC_N,    KC_S,    KC_SLSH},
   {KC_LSFT, KC_SCLN, KC_Q,    KC_J,    KC_K,    KC_X,    KC_B,    KC_M,    KC_W,    KC_V,    KC_Z,    KC_ENT },
-  {BACKLIT, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   SPACE,   SPACE,   RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT}
+  {KC_LCTL, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   SPACE,   SPACE,   RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT}
 },
 
 /* Prog
  * ,-----------------------------------------------------------------------------------.
  * |      |  %   |   @  |   #  |   $  |   +  |  -   |  <   |   >  |  ^   |  ~   |      |      |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * |      |  '   |   "  |   (  |   )  |  *   |  =   |   [  |   ]  |  ?   |  ;   |      |
+ * |      |  '   |   "  |   (  |   )  |  *   |  =   |   [  |   ]  |  ?   |  !   |      |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
- * |      |      |   |  |   /  |   \  |  `   |   ´  |   {  |   }  |  !   |  :   |      |
+ * |      |      |   |  |   /  |   \  |  `   |   ´  |   {  |   }  |  ;   |  :   |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |      |      |      |      |      |             |      |      |      |      |      |
  * `-----------------------------------------------------------------------------------'
  */
 [_PROG] = {
   {_______, KC_PERC, NO_AT  ,     KC_HASH, NO_DLR,      NO_PLUS, NO_MINS,       NO_LESS,     NO_GRTR,     NO_CIRC, NO_TILD, _______},
-  {_______, NO_APOS, NO_QUO2,     NO_LPRN, NO_RPRN,     NO_ASTR, NO_EQL,        NO_LBRC,     NO_RBRC,     NO_QUES, NO_SCLN, _______},
-  {_______, ___x___, NO_PIPE_MAC, NO_SLSH, NO_BSLS_MAC, NO_ACUT, LSFT(NO_ACUT), NO_LCBR_MAC, NO_RCBR_MAC, KC_EXLM, NO_COLN, _______},
+  {_______, NO_APOS, NO_QUO2,     NO_LPRN, NO_RPRN,     NO_ASTR, NO_EQL,        NO_LBRC,     NO_RBRC,     NO_QUES, KC_EXLM, _______},
+  {_______, ___x___, NO_PIPE_MAC, NO_SLSH, NO_BSLS_MAC, NO_ACUT, LSFT(NO_ACUT), NO_LCBR_MAC, NO_RCBR_MAC, NO_SCLN, NO_COLN, _______},
   {___x___, ___x___, ___x___,     ___x___, ___x___,     _______, _______,       ___x___,     ___x___,     ___x___, ___x___, ___x___}
 },
 
