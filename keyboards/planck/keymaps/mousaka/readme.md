@@ -1,5 +1,5 @@
 # Swedish programmer layout
-This layer is not yet well tested but optimized for using Colemak. This is still a work in progress but will start a test period of this version now.
+This layer is not yet well tested but optimized for using Colemak. This is still a work in progress but will start a personal test period of this version now.
 It is based out of the original planck setup but with a "programmer characters layer" (special characters) added and Swedish characters åäö added to alphabetic layer.
 
 All other keybindings from original Planck setup still work as before. You can still change from Qwerty to Colemak for example and turn on "music" etc.
